@@ -25,15 +25,15 @@
 
 * You'll want to include the necessary scripts in the head of the HTML file:
 
-	-<script src="build/react.js"></script>
-	-<script src="build/react-dom.js"></script>
-	-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+	```<script src="build/react.js"></script>```
+	```<script src="build/react-dom.js"></script>```
+	```<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>```
 * Within the body of the HTML file, you will want to create a div that everything will be appended to. 
 
 * Then, you'll want a script tag within the body as well. This script tag with specify the type, which should be text/babel. Also include the source of your javascript file. 
 
 	-It should look like this:
-	-<script type="text/babel" src="main.js"></script>
+	```<script type="text/babel" src="main.js"></script>```
 
 * Be sure to create a main.js file, as that is where the logic will be done. 
 
