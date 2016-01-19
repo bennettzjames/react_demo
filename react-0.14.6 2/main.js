@@ -21,6 +21,10 @@
  		render: function(){
  			return(
  				<div className="add-form">
+ 					<form className="add-item-form">
+        		<input type="text" placeholder="Item"/>
+        		<input type="submit" value="Post" />
+     		 </form>
  					Form will go here
  				</div>
  			);
